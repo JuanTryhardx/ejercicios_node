@@ -23,8 +23,8 @@ function App() {
 
   const datosNewsletter = {
     titulo: "NEWSLETTER",
-    descripcion: "Get existential crisis delivered straight to your inbox every week.",
-    placeholderInput: "Your life",
+    descripcion: "Recibe cada semana una dosis de crisis existencial directamente en tu bandeja de entrada.",
+    placeholderInput: "Tu vida",
     textoBoton: "CLICK ME"
   };
 
@@ -40,7 +40,7 @@ function App() {
     textoBoton: "READ MORE"
   };
 
-  const tituloGender = "PLEASE SELECT YOUR GENDER";
+  const tituloGender = "SELECCIONA TU GENERO";
   const opcionesGender = [
     { icono: "♂", genero: "Masculino", claseColor: "g-azul" },
     { icono: "♀", genero: "Femenino", claseColor: "g-rosa" },
