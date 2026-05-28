@@ -1,0 +1,27 @@
+.contenedor-productos {
+  padding: 20px;
+  width: 100%;
+}
+
+.tabla-productos {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  border: 1px solid #444444;
+  font-family: Arial, sans-serif;
+}
+
+.tabla-productos th {
+  background-color: #f6ff00;
+  color: rgb(0, 0, 0);
+  padding: 12px 8px;
+  border: 1px solid #444444;
+  font-weight: bold;
+}
+
+/* Estilo para las celdas de datos*/
+.tabla-productos td {
+  padding: 10px 8px;
+  border: 1px solid #000000;
+  background-color: white;
+}

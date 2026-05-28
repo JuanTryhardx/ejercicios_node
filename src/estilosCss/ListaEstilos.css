@@ -1,0 +1,26 @@
+.tabla-contenedor {
+  padding: 20px;
+}
+
+.tabla-usuarios {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  border: 1px solid #000000;
+}
+
+.tabla-usuarios th {
+  background-color: #eef123;
+  padding: 8px;
+  border: 1px solid #000000;
+}
+
+.tabla-usuarios td {
+  padding: 8px;
+  border: 1px solid #000000;
+}
+.tabla-usuarios td {
+  padding: 10px 8px;
+  border: 1px solid black;
+  background-color: white;
+}

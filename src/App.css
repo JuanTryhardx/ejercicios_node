@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+.seccion-superior {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: flex-start;
+  margin-bottom: 40px; /* Separa esta sección del título de productos de abajo */
+  padding: 10px;
+}
+

@@ -1,24 +1,26 @@
 import logo from './logo.svg';
 import './App.css';
+import CardUsuario from './UsuariosComponentes/UsuarioCard';
+import UsuarioTabla from './UsuariosComponentes/UsuarioTabla';
+import TablaProductos from './ProductosComponentes/TablaProducto';
 
 function App() {
+  // info tomadas de la API
+  const listaProductos = [
+    { codigo: "Codigo 001", nombre: "Mantequilla", cantidad: "200", unidad: "gr" }
+  ];
+  const colores = ["azul", "verde", "rojo", "negroo"];
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="seccion-superior">
+        <CardUsuario />
+        <UsuarioTabla />
+      </div>
+      
+      <h1 className='texto'>Listas de Productos</h1>
+      <TablaProductos info={listaProductos} color={colores} />
+    </>
   );
 }
 
