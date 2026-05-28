@@ -17,7 +17,7 @@ function App() {
   const colores = ["azul", "verde", "rojo", "negroo"];
 
   const datosSilla = {
-    nombre: "Cool Chair",
+    nombre: "Precio chair",
     precio: "100"
   };
 

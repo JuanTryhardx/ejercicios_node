@@ -5,7 +5,7 @@ function CardSilla({ info }) {
   return (
     <div className="card-silla-contenedor">
       <div className="card-silla-imagen">
-        <p>This is <br /> a chair.</p>
+        <p>esto es <br /> un chair</p>
       </div>
       <div className="card-silla-detalles">
         <p className="silla-nombre">{info.nombre}</p>
