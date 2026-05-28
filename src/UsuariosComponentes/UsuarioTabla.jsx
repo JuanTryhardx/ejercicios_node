@@ -1,5 +1,4 @@
 import React from 'react';
-//importamos el archivo CSS usando la ruta
 import '../estilosCss/ListaEstilos.css'; 
 
 const UsuarioTabla = () => {
@@ -10,7 +9,6 @@ const UsuarioTabla = () => {
   ];
 
   return (
-    // 2. Aplicamos las clases CSS externas
     <div className="tabla-contenedor">
       <h2>Lista de Usuarios</h2>
       <table className="tabla-usuarios">

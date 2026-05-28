@@ -1,0 +1,58 @@
+.botones-hover-contenedor {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 220px;
+  margin-left: 20px;
+  box-sizing: border-box;
+}
+
+.boton-hover-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: sans-serif;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.boton-hover-item:active {
+  transform: scale(0.98);
+}
+
+.boton-hover-titulo {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.boton-hover-subtitulo {
+  font-size: 11px;
+  opacity: 0.8;
+}
+
+.btn-rojo {
+  background-color: #f24e6b;
+}
+.btn-rojo:hover {
+  background-color: #d63b56;
+}
+
+.btn-azul {
+  background-color: #3b82f6;
+}
+.btn-azul:hover {
+  background-color: #2563eb;
+}
+
+.btn-verde {
+  background-color: #22c55e;
+}
+.btn-verde:hover {
+  background-color: #16a34a;
+}

@@ -1,0 +1,66 @@
+.gender-contenedor {
+  width: 250px;
+  background-color: #f3f4f6;
+  border-radius: 12px;
+  padding: 16px;
+  font-family: 'Courier New', Courier, monospace;
+  box-shadow: inset 0px 2px 4px rgba(0,0,0,0.06), 0px 4px 12px rgba(0,0,0,0.05);
+  margin-left: 20px;
+  text-align: center;
+  border: 1px solid #e5e7eb;
+  box-sizing: border-box;
+}
+
+.gender-titulo {
+  margin: 0 0 16px 0;
+  font-size: 11px;
+  font-weight: bold;
+  color: #4b5563;
+  letter-spacing: 0.5px;
+}
+
+.gender-opciones {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.gender-boton {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: none;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.gender-boton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 6px 12px rgba(0,0,0,0.1);
+}
+
+.g-azul {
+  background-color: #eff6ff;
+  color: #3b82f6;
+  border: 1px solid #bfdbfe;
+}
+.g-rosa {
+  background-color: #fdf2f8;
+  color: #ec4899;
+  border: 1px solid #fbcfe8;
+}
+.g-morado {
+  background-color: #faf5ff;
+  color: #a855f7;
+  border: 1px solid #e9d5ff;
+}
+.g-gris {
+  background-color: #f9fafb;
+  color: #9ca3af;
+  border: 1px solid #e5e7eb;
+}

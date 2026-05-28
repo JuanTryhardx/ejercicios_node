@@ -41,7 +41,7 @@
   flex-direction: row;
   gap: 30px;
   align-items: flex-start;
-  margin-bottom: 40px; /* Separa esta sección del título de productos de abajo */
+  margin-bottom: 40px;
   padding: 10px;
 }
 

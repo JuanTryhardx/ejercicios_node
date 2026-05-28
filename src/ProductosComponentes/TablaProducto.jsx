@@ -1,5 +1,4 @@
 import React from 'react';
-// Importamos tu nuevo archivo de estilos independiente
 import '../estilosCss/ProductosEstilos.css'; 
 
 const TablaProducto = ({ info }) => {
