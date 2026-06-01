@@ -1,13 +1,12 @@
-import React from 'react';
 import '../estilosCss/BotonesHoverEstilos.css';
 
 function BotonesHover({ listaBotones }) {
   return (
-    <div className="botones-hover-contenedor">
+    <div className="contenedor-botones-hover">
       {listaBotones.map((boton, index) => (
-        <button key={index} className={`boton-hover-item ${boton.claseColor}`}>
-          <span className="boton-hover-titulo">{boton.titulo}</span>
-          <span className="boton-hover-subtitulo">{boton.subtitulo}</span>
+        <button key={index} className={`btn-hover ${boton.claseColor}`}>
+          <span className="btn-titulo">{boton.titulo}</span>
+          <span className="btn-subtitulo">{boton.subtitulo}</span>
         </button>
       ))}
     </div>

@@ -1,13 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-import CardUsuario from './UsuariosComponentes/UsuarioCard';
-import UsuarioTabla from './UsuariosComponentes/UsuarioTabla';
-import TablaProductos from './ProductosComponentes/TablaProducto';
-import CardSilla from './CardSillaComponentes/CardSilla';
-import NewsletterForm from './NewsletterComponentes/NewsletterForm';
-import BotonesHover from './BotonesHoverComponentes/BotonesHover';
-import TailwindCard from './TailwindCardComponentes/TailwindCard';
-import SelectorGenero from './SelectorGeneroComponentes/SelectorGenero';
+import CardUsuario from './UsuariosComponentes/UsuarioCard.jsx';
+import UsuarioTabla from './UsuariosComponentes/UsuarioTabla.jsx';
+import TablaProductos from './ProductosComponentes/TablaProducto.jsx';
+import CardSilla from './CardSillaComponentes/CardSilla.jsx';
+import NewsletterForm from './NewsletterComponentes/NewsletterForm.jsx';
+import BotonesHover from './BotonesHoverComponentes/BotonesHover.jsx';
+import TailwindCard from './TailwindCardComponentes/TailwindCard.jsx';
+import SelectorGenero from './SelectorGeneroComponentes/SelectorGenero.jsx';
+import { MensajeTexto } from "./mensaje/mensaje.jsx";
+import { Saludo } from "./mensaje/saludo.jsx";
 
 function App() {
   const listaProductos = [
@@ -58,6 +60,9 @@ function App() {
         <BotonesHover listaBotones={datosBotones} />
         <TailwindCard infoCard={datosTwCard} />
         <SelectorGenero titulo={tituloGender} opciones={opcionesGender} />
+
+        <MensajeTexto />
+        <Saludo />
       </div>
 
       <h1 className='texto'>Listas de Productos</h1>

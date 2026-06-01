@@ -1,21 +1,26 @@
-import React from 'react';
+import { useState } from 'react';
 import '../estilosCss/SelectorGeneroEstilos.css';
 
 function SelectorGenero({ titulo, opciones }) {
+  const [generoSeleccionado, setGeneroSeleccionado] = useState(null);
+
   return (
-    <div className="gender-contenedor">
-      <p className="gender-titulo">{titulo}</p>
-      <div className="gender-opciones">
+    <div className="gender-selector-card">
+      <h3>{titulo}</h3>
+      <div className="opciones-container">
         {opciones.map((opcion, index) => (
           <button 
             key={index} 
-            className={`gender-boton ${opcion.claseColor}`}
-            title={opcion.genero}
+            className={`gender-btn ${opcion.claseColor} ${generoSeleccionado === opcion.genero ? 'activo' : ''}`}
+            onClick={() => setGeneroSeleccionado(opcion.genero)}
           >
-            {opcion.icono}
+            <span className="icono-genero">{opcion.icono}</span>
           </button>
         ))}
       </div>
+      {generoSeleccionado && (
+        <p className="seleccion-texto">Has seleccionado: <strong>{generoSeleccionado}</strong></p>
+      )}
     </div>
   );
 }
